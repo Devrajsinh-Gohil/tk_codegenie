@@ -22,7 +22,7 @@ int main(int argc, char const *argv[])
     // ----------------------
 
     // custom test cases
-    // for custom test case use: ./q1 x1 y1 x2 y2
+    // for custom test case use: ./q1 x1 y1 x2 y2 r1 r2
     pair<int, int> park1{stoi(argv[1]), stoi(argv[2])};
     pair<int, int> park2{stoi(argv[3]), stoi(argv[4])};
     int park1Radius = stoi(argv[5]);
