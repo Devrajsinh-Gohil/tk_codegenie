@@ -6,6 +6,8 @@ using namespace std;
 
 
 
+// Solution to problem 1
+
 /**
  * @brief ``guessTheNumber`` function to calculate the number based on the given operations
  * 
@@ -68,6 +70,9 @@ int Solution::guessTheNumber(int n, vector<string> operationSequence)
     return ans;
 }
 
+
+// Solution to problem 2
+
 /**
  * @brief ``urbanPlanningChallenge`` function to check if the two parks are overlapping or not.
  * 
@@ -97,6 +102,9 @@ bool Solution::urbanPlanningChallenge(pair<int,int> park1, pair<int,int> park2, 
     else
         return true;
 }
+
+
+// Solution to problem 3
 
 /**
  * @brief ``studentWordPlayChallenge`` give the number of anagram pairs in given string vector
